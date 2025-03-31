@@ -11,7 +11,6 @@ type Mutation {
 
 type Job {
   id: ID!
-  companyId: String
   company: Company
   title: String!
   description: String
